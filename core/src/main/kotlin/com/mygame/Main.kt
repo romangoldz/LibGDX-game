@@ -10,7 +10,7 @@ class Game : ApplicationAdapter() {
     }
     
     override fun render() {
-        Gdx.gl.glClearColor(1f, 0.5f, 0.3f)
+        Gdx.gl.glClearColor(1f, 0.5f, 0.3f, 1f)
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
     }
     
